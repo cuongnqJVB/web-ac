@@ -1,0 +1,33 @@
+html,
+body,
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
