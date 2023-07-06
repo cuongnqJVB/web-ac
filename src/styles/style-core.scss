@@ -1,6 +1,8 @@
 @tailwind base;
+@tailwind variants;
 @tailwind components;
 @tailwind utilities;
 
-@import 'objects/reset';
-@import 'gennerics/layout';
+@import 'objects';
+@import 'gennerics';
+@import 'components';

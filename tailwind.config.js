@@ -26,7 +26,7 @@ module.exports = {
             // => @media (min-width: 1600px) { ... }
         },
         fontSize: {
-            "fs-9": ['9px', '12px'],
+            "18": ['18px', '26px'],
             ...defaultTheme.fontSize
         },
         colors: {
