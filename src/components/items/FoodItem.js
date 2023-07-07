@@ -1,9 +1,17 @@
+import { Link } from "react-router-dom";
 
-const FoodItem = () => {
+const FoodItem = ({
+    href,
+    image,
+    text
+}) => {
     return (
-        <div>
-            FoodItem
-        </div>
+        <Link className="food_item" to={href}>
+            <img src={image} alt="food-menu" />
+            <div className="food_item__badge">
+                {text}
+            </div>
+        </Link>
     );
 };
 

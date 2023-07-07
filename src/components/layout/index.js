@@ -4,10 +4,12 @@ import Footer from "../footer";
 
 const Layout = () => {
     return (
-        <section className="healthy-app w-full h-full flex flex-col bg-light-white">
-            <Header />
-            <Outlet />
-            <Footer />
+        <section className="healthy-app">
+            <div className="app-content">
+                <Header />
+                <Outlet />
+                <Footer />
+            </div>
         </section>
     );
 };

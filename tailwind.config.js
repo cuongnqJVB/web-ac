@@ -3,7 +3,9 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
-    content: ["./src/**/*.{html,js}"],
+    content: [
+        "./src/**/*.{html,js}"
+    ],
     important: true,
     theme: {
         screens: {
@@ -26,8 +28,16 @@ module.exports = {
             // => @media (min-width: 1600px) { ... }
         },
         fontSize: {
+            "10": ['10px', '12px'],
+            "16": ['16px', '23px'],
             "18": ['18px', '26px'],
+            "20": ['20px', '24px'],
+            "25": ['25px', '30px'],
             ...defaultTheme.fontSize
+        },
+        fontFamily: {
+            inter: ['"Inter"', 'sans-serif'],
+            'noto-san': ['"Noto Sans JP"', 'sans-serif'],
         },
         colors: {
             transparent: 'transparent',

@@ -1,11 +1,3 @@
-html,
-body,
-div {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: 'Montserrat', sans-serif;
-}
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -21,10 +13,20 @@ section {
     display: block;
 }
 
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
 body {
     margin: 0;
     font-size: 1rem;
     line-height: 1.5rem;
+    scroll-behavior: smooth;
+    border: 0;
+    padding: 0;
+    @apply font-noto-san;
 }
 
 table {
