@@ -14,7 +14,7 @@ const FoodList = () => {
                             key={index}
                         />
                     ))
-                }h
+                }
             </div>
         </div>
     )

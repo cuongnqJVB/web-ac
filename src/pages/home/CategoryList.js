@@ -14,7 +14,7 @@ const CategoryList = () => {
                             key={index}
                         />
                     ))
-                }h
+                }
             </div>
         </div>
     )

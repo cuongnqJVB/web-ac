@@ -19,18 +19,21 @@
 
 @media (min-width: 1280px) {
     .app-container {
-        max-width: calc(100vw - 320px);
+        // max-width: calc(100vw - 320px);
+        max-width: 960px;
     }
 }
 
 @media (max-width: 1279px) {
     .app-container {
-        max-width: calc(100vw - 140px);
+        // max-width: calc(100vw - 140px);
+        max-width: 960px;
     }
 }
 
 @media (max-width: 768px) {
     .app-container {
         max-width: 100%;
+        padding: 0 15px;
     }
 }
